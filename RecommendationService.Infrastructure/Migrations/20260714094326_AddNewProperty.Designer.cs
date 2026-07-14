@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using RecommendationService.Infrastructure.Persistence.Database;
@@ -11,9 +12,11 @@ using RecommendationService.Infrastructure.Persistence.Database;
 namespace RecommendationService.Infrastructure.Migrations
 {
     [DbContext(typeof(RecommendationDbContext))]
-    partial class RecommendationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260714094326_AddNewProperty")]
+    partial class AddNewProperty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

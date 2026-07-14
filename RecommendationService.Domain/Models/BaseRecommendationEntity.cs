@@ -13,6 +13,7 @@ public abstract class BaseRecommendationEntity
     public int ComplaintCount { get; set; }
 
     public double AverageRating { get; set; }
+    public int ReviewCount { get; set; }
 
     public DateTimeOffset UpdatedAt { get; set; }
     public DateTimeOffset CreatedAt { get; set; }

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.API", "RecommendationService.API", "{A2D797B2-9EA0-4054-90E7-4E5A82903DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.Application", "RecommendationService.Application", "{FC0D7775-8DDD-4EFB-BF32-4134675257AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.Domain", "RecommendationService.Domain", "{10F4316D-4E47-4870-BD22-799B689923B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.Infrastructure", "RecommendationService.Infrastructure", "{6B0AD1F2-4592-46BF-A9B1-844876D1802E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.Domain", "RecommendationService.Domain\RecommendationService.Domain.csproj", "{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.Application", "RecommendationService.Application\RecommendationService.Application.csproj", "{C9CFA146-2EC9-451C-9A83-A4D357C70555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.API", "RecommendationService.API\RecommendationService.API.csproj", "{EE18EF7A-1E3C-4CC5-A71E-DC540B611542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.Infrastructure", "RecommendationService.Infrastructure\RecommendationService.Infrastructure.csproj", "{7CE37314-12F6-4BB2-8E15-B4E3616483ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82} = {10F4316D-4E47-4870-BD22-799B689923B3}
+		{C9CFA146-2EC9-451C-9A83-A4D357C70555} = {FC0D7775-8DDD-4EFB-BF32-4134675257AE}
+		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542} = {A2D797B2-9EA0-4054-90E7-4E5A82903DC1}
+		{7CE37314-12F6-4BB2-8E15-B4E3616483ED} = {6B0AD1F2-4592-46BF-A9B1-844876D1802E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CFA146-2EC9-451C-9A83-A4D357C70555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CFA146-2EC9-451C-9A83-A4D357C70555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CFA146-2EC9-451C-9A83-A4D357C70555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CFA146-2EC9-451C-9A83-A4D357C70555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE37314-12F6-4BB2-8E15-B4E3616483ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE37314-12F6-4BB2-8E15-B4E3616483ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE37314-12F6-4BB2-8E15-B4E3616483ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE37314-12F6-4BB2-8E15-B4E3616483ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

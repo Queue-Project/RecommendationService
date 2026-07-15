@@ -200,7 +200,8 @@ PublishScripts/
 *.nuget.targets
 
 
-
+!RecommendationServiceLocalNuget/
+!RecommendationServiceLocalNuget/*.nupkg
 
 
 # Microsoft Azure Build Output

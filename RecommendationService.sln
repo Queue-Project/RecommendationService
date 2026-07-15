@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.Contr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.Contracts", "RecommendationService.Contracts\RecommendationService.Contracts.csproj", "{2F7AC94B-8DE3-436B-AFE4-BD6BE8081BB1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecommendationService.UnitTests", "RecommendationService.UnitTests", "{907E913E-7704-4781-B9A0-A343AA06C3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService.UnitTests", "RecommendationService.UnitTests\RecommendationService.UnitTests.csproj", "{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,7 @@ Global
 		{EE18EF7A-1E3C-4CC5-A71E-DC540B611542} = {A2D797B2-9EA0-4054-90E7-4E5A82903DC1}
 		{7CE37314-12F6-4BB2-8E15-B4E3616483ED} = {6B0AD1F2-4592-46BF-A9B1-844876D1802E}
 		{2F7AC94B-8DE3-436B-AFE4-BD6BE8081BB1} = {67C53239-86BC-4DB4-9700-774A189444EC}
+		{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839} = {907E913E-7704-4781-B9A0-A343AA06C3F0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FF29D49C-400C-4E6F-A4B2-B2A31CD5FF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -53,5 +58,9 @@ Global
 		{2F7AC94B-8DE3-436B-AFE4-BD6BE8081BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7AC94B-8DE3-436B-AFE4-BD6BE8081BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7AC94B-8DE3-436B-AFE4-BD6BE8081BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9215E9-67B0-4EA1-BF3F-CF39C8FCB839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

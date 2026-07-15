@@ -27,6 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\RecommendationService.Contracts\RecommendationService.Contracts.csproj" />
       <ProjectReference Include="..\RecommendationService.Domain\RecommendationService.Domain.csproj" />
     </ItemGroup>
 

@@ -8,12 +8,12 @@ using RecommendationService.Application.Interfaces;
 
 namespace RecommendationService.Application.Consumers.EmployeeConsumers;
 
-public class DeletedEventConsumer : IConsumer<EmployeeDeletedEvent>
+public class EmployeeDeletedEventConsumer : IConsumer<EmployeeDeletedEvent>
 {
-    private readonly ILogger<DeletedEventConsumer> _logger;
+    private readonly ILogger<EmployeeDeletedEventConsumer> _logger;
     private readonly IRecommendationDbContext _dbContext;
 
-    public DeletedEventConsumer(ILogger<DeletedEventConsumer> logger, IRecommendationDbContext dbContext)
+    public EmployeeDeletedEventConsumer(ILogger<EmployeeDeletedEventConsumer> logger, IRecommendationDbContext dbContext)
     {
         _logger = logger;
         _dbContext = dbContext;

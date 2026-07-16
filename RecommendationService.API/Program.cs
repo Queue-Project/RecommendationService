@@ -71,7 +71,6 @@ builder.Services.AddSingleton<IRecommendationScoreService, RecommendationScoreSe
 builder.Services.AddDbContext<RecommendationDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
     var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString).Build();
     options.UseNpgsql(dataSourceBuilder);
 });
@@ -81,7 +80,7 @@ var app = builder.Build();
 app.MapMagicOnionService<RecommendationService.Application.Services.RecommendationService>();
 
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.EnvironmentName == "Docker")
 {
     app.UseSwagger();
     app.UseSwaggerUI();
